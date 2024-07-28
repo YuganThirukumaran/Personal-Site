@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
     grid-template-rows: 33vw 1fr;
-    gap: 10px;
+    gap: 20px;
     background-color: white;
     margin-left: 15px;
     margin-right: 15px;
@@ -17,9 +17,11 @@ a > img{
     width: 100%;
     height: 100%;
     object-fit: FILL;
+    border-width: 0cap;
     border-style: solid;
     border-radius: 1vw;
     border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .youtube{
