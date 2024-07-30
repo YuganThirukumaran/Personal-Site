@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assest/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+RO:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assest/project.css">
+    <link rel="stylesheet" href="Assest/about.css">
 </head>
-<body>
-    <nav class="navbar">
+<body class="gradient-background">
+    <nav class="navbar gradient-nav-background">
         <ul>
-            <button class="home">Home</button>
-            <li><a>Projects</a></li>
-            <li><a>About</a></li>
+            <li><a class="home" href="#main-scroll">Home</a></li>
+            <li><a href="#skill-scroll">Skills</a></li>
+            <li><a href="#project-scroll">Projects</a></li>
             <li><a>Contact</a></li>
         </ul>
     </nav>
-    <div class="main">
+    <div class="main" id="main-scroll">
     <section class="hero">
         <div class="hero-contain">
             <div class="hello">
-                Hello👋, I'm Yugan
+                Hello <br>I'm Yugan
             </div>
             <div class="hero-desc">
-                A passionate web developer and programmer pursuing a B.Tech in Information Technology. As a student<br><br>I've built a portfolio of projects to hone my skills and bring creative ideas to life. Let's create something amazing together! 🚀
+                A passionate web developer and programmer.<br><br>I've built a portfolio of projects to hone my skills and bring creative ideas to life. Let's create something amazing together! 🚀
             </div>
             <div class="hero-img">
                 <img src="Assest/Screenshot 2024-07-27 102245.png" alt="">
             </div>
         </div>
     </section>
-    <section class="skill">
+    <section class="skill" id="skill-scroll">
             <div class="skill-title htitle">
                 My Skills
             </div>
@@ -62,7 +69,7 @@
             <div class="skill-sql skills">Sql</div>
             </div>
     </section>
-    <section class="project">
+    <section class="project" id="project-scroll">
         <div class="project-title htitle">
             My Projects
         </div>
@@ -82,9 +89,9 @@
                     <img src="Assest/Mondrian.png" alt="Mondrian">
                 </a>
             </div>
-            <div class="tingdog-title skills">TingDog</div>
-            <div class="youtube-title skills">Youtube Clone</div>
-            <div class="mondrian-title skills">Mondrian</div>
+            <div class="tingdog-title ptit">TingDog</div>
+            <div class="youtube-title ptit">Youtube Clone</div>
+            <div class="mondrian-title ptit">Mondrian</div>
         </div>
     </section>
     </div>
