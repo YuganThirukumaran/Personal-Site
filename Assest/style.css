@@ -163,7 +163,6 @@ li > a{
 }
 
 .skill-pic{
-    background-color: #0d6efd;
     color: white;
     height: 4vw;
     width: 4vw;
@@ -199,7 +198,7 @@ li > a{
 }
 
 .terminal-sql{
-    grid: 2/4/3/5;
+    grid-area: 2/4/3/5;
 }
 
 /* skills description */
